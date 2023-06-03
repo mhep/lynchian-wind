@@ -48,6 +48,7 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 1. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`
 2. Clean text and create spreadsheet.
 3. Create Lynchian wind taxonomy:
+
 | **Types**  | **Strengths**      | **Value** |
 |------------|--------------------|-----------|
 | **Still**  | very still         |         1 |
@@ -63,6 +64,8 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 |            | strong wind        |        11 |
 |            | high wind          |        12 |
 |------------|--------------------|-----------|
+
+![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/wind-over-year.png?token=AAHKBD4VEZYRAI7JYFLQSZLEPN2QG)
 
 ### Monthly and seasonal reports
 
