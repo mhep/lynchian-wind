@@ -34,19 +34,44 @@ videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current
 ```
 videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blast|squall|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo
 ```
+11. Fragment search not sufficient to understand how strong the wind is.
 10. Use `--search-type fragment --padding 0.22` to capture enough context around each mention.
 11. Trial run on a subset of clips from one month.
+12. Sort the clips depending on Lynch's location (at the window or in his workshop).
 
 ## Variations
 ### LA gloom
 `videogrep --input *.webm --search 'gloom'`
+- learnt the term "june gloom"
+
+### Visualisation of Lynchian wind
+1. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`
+2. Clean text and create spreadsheet.
+3. Create Lynchian wind taxonomy:
+| **Types**  | **Strengths**      | **Value** |
+|------------|--------------------|-----------|
+| **Still**  | very still         |         1 |
+|            | quite still        |         2 |
+|            | still              |         3 |
+| **Breeze** | very slight breeze |         4 |
+|            | slight breeze      |         5 |
+|            | gentle breeze      |         6 |
+|            | breeze             |         7 |
+|            | good breeze        |         8 |
+|            | strong breeze      |         9 |
+| **Wind**   | wind               |        10 |
+|            | strong wind        |        11 |
+|            | high wind          |        12 |
+|------------|--------------------|-----------|
 
 ### Monthly and seasonal reports
 
 ## Notes during research
 - you have to get a feel for someone's specific speaking patterns
 - Is it important to disentangle literal and metaphorical uses of wind-words?
-- other search terms of interest: `smoke` `gloom`
+- other search terms of interest: `smoke` `gloom` `blue`
+- you can see the trees in the background moving with the wind
+- searching only for individual words resulted in to coarse a taxonomy for wind (still and breeze). Expanding the length of each fragment provided access to the adjectives.
 
 ## Results
 - Learnt about LA's june (and july) gloom
