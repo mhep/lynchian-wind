@@ -22,3 +22,5 @@ From [IMdb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 ```
 videogrep --input *.mp4 --search 'Breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|nor'easter|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna' --search-type fragment --demo
 ```
+6. Find further wind-related words based on manual review of the videos:
+> still
