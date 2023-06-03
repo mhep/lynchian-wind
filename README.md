@@ -36,3 +36,4 @@ videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current
 
 ## Notes during research
 - you have to get a feel for someone's specific speaking patterns
+- Is it important to disentanlge literal and metaphorical uses of wind-words?
