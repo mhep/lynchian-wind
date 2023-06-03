@@ -62,11 +62,11 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 |            | strong breeze      |         9 |				47|
 | **Wind**   | wind               |        10 |				 2|
 |            | strong wind        |        11 |				 3|
-|            | high wind          |        12 |				 1|
+|            | high wind          |        12 |				 1||
 
 ![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/wind-over-year.png?token=AAHKBD4VEZYRAI7JYFLQSZLEPN2QG)
 
-![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/average-la-windspeed.png?token=AAHKBD334MZ3ABQMC74WR2DEPN4NU)
+![](https://github.com/mhep/lynchian-wind/blob/main/img/average-la-windspeed.png)
 [Average Wind Speed in Los Angeles](https://weatherspark.com/y/1705/Average-Weather-in-Los-Angeles-California-United-States-Year-Round#Figures-WindSpeed)
 
 
