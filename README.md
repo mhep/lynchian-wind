@@ -37,7 +37,7 @@ videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current
 ## Variations
 ### LA gloom
 `videogrep --input *.webm --search 'gloom'`
-<video src='https://github.com/mhep/lynchian-wind/raw/main/gloom.mp4' width="200">
+<video src='https://github.com/mhep/lynchian-wind/raw/main/gloom.mp4' width=180/>
 
 ### Monthly and seasonal reports
 
