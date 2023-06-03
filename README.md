@@ -20,13 +20,19 @@ From [IMdb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 videogrep -i *.webm --ngrams 1
 ```
 4. Generate a list of synonyms for wind using ChatGPT:
-> Breeze, gust, draft, zephyr, gale, airflow, current, blast, squall, air, hurricane, tempest, air current, cyclone, whirlwind, puff, waft, sirocco, typhoon, chinook, airstream, flutter, blow, bluster, breath, flurry, airstream, windstorm, draught, puff, crosswind, headwind, tailwind, updraft, downdraft, eddy, tornado, storm, twister, funnel, williwaw, mistral, monsoon, nor'easter, samiel, tradewind, airstream, breeze, southerly, northerly, easterly, westerly, Santa Ana.
+> Breeze, gust, draft, zephyr, gale, airflow, current, blast, squall, air, hurricane, tempest, air current, cyclone, whirlwind, puff, waft, sirocco, typhoon, chinook, airstream, flutter, blow, bluster, breath, flurry, airstream, windstorm, draught, puff, crosswind, headwind, tailwind, updraft, downdraft, eddy, tornado, storm, twister, funnel, williwaw, mistral, monsoon, samiel, tradewind, airstream, breeze, southerly, northerly, easterly, westerly, Santa Ana.
 7. Find further wind-related words based on exploring ngrams and manual review of the videos:
 > still
 8. New command including added words:
 ```
 videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo
 ```
+9. Save list as text file in order to create a visualisation of the wind conditions and show their frequency.
+```
+videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo > lynchianwind.txt
+```
+10. Use `--search-type fragment --padding 0.22` to capture enough context around each mention.
+11. Trial run on a subset of clips from one month.
 
 ## Notes during research
 - you have to get a feel for someone's specific speaking patterns
