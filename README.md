@@ -64,10 +64,14 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 |            | strong wind        |        11 |				 3|
 |            | high wind          |        12 |				 1||
 
-![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/wind-over-year.png?token=AAHKBD4VEZYRAI7JYFLQSZLEPN2QG)
+#### Wind speed frequencies I (11.2020–12.2022)
+![](https://github.com/mhep/lynchian-wind/blob/main/img/wind-strength-frequency.png)
 
+#### Wind speed frequencies II (11.2020–12.2022)
+![](https://github.com/mhep/lynchian-wind/blob/main/img/wind-over-year.png)
+
+#### [Average Wind Speed in Los Angeles](https://weatherspark.com/y/1705/Average-Weather-in-Los-Angeles-California-United-States-Year-Round#Figures-WindSpeed)
 ![](https://github.com/mhep/lynchian-wind/blob/main/img/average-la-windspeed.png)
-[Average Wind Speed in Los Angeles](https://weatherspark.com/y/1705/Average-Weather-in-Los-Angeles-California-United-States-Year-Round#Figures-WindSpeed)
 
 
 ### Monthly and seasonal reports
