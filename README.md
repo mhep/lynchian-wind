@@ -33,9 +33,10 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 `videogrep --input *.webm --search 'gloom'`
 
 ### Visualisation of Lynchian wind
-1. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`
-2. Clean text and create spreadsheet.
-3. Create Lynchian wind taxonomy:
+1. Pre-select videos in which one can see the palm trees through the window (11.2020–12.2022).
+2. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`.
+3. Clean text and create spreadsheet.
+4. Create Lynchian wind taxonomy:
 
 | **Types**  | **Strengths**      | **Value** | **Frequency** |
 |------------|--------------------|-----------|---------------|
