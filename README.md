@@ -6,7 +6,7 @@ Explore the nature of wind through David Lynch's [Weather Reports](https://www.y
 From [IMdb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 > David Lynch first started reporting weather on Los Angeles indie radio 103.1, via telephone. He then moved practice as a web-series to his official website in 2006, where it continued until 2010. The series suddenly returned on YouTube in 2020, during the COVID-19 pandemic quarantine.
 
-## Research quesitons
+## Research questions
 1. How does Lynch describe the weather?
 2. What sort of weather is prominent?
 3. Is Lynch describing the weather or climate of Los Angeles?
@@ -15,7 +15,7 @@ From [IMdb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 ## Steps
 1. Install [videogrep](https://github.com/antiboredom/videogrep).
 2. Download all of Lynch's Weather Reports using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
-3. Exlopre the corpus using
+3. Explore the corpus using
 ```
 videogrep -i *.webm --ngrams 1
 ```
@@ -36,4 +36,4 @@ videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current
 
 ## Notes during research
 - you have to get a feel for someone's specific speaking patterns
-- Is it important to disentanlge literal and metaphorical uses of wind-words?
+- Is it important to disentangle literal and metaphorical uses of wind-words?
