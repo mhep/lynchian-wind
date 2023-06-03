@@ -63,7 +63,6 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 | **Wind**   | wind               |        10 |
 |            | strong wind        |        11 |
 |            | high wind          |        12 |
-|------------|--------------------|-----------|
 
 ![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/wind-over-year.png?token=AAHKBD4VEZYRAI7JYFLQSZLEPN2QG)
 
