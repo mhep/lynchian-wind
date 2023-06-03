@@ -1,4 +1,18 @@
 # Lynchian wind
 
 ## Goal
-Explore the nature of wind through David Lynch's Weather Reports.
+Explore the nature of wind through David Lynch's [Weather Reports](https://www.youtube.com/playlist?list=PLTPQcjlcvvXExy6Ti4TccyRvwntL00b2w).
+
+From [IMdb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
+> David Lynch first started reporting weather on Los Angeles indie radio 103.1, via telephone. He then moved practice as a web-series to his official website in 2006, where it continued until 2010. The series suddenly returned on YouTube in 2020, during the COVID-19 pandemic quarantine.
+
+## Steps
+1. Install [videogrep](https://github.com/antiboredom/videogrep).
+2. Download all of Lynch's Weather Reports using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
+3. Exlopre the corpus using `videogrep -i *.mp4 --ngrams 1`.
+4. Generate a list of synonyms for wind using ChatGPT:
+> Breeze, gust, draft, zephyr, gale, airflow, current, blast, squall, air, hurricane, tempest, air current, cyclone, whirlwind, puff, waft, sirocco, typhoon, chinook, airstream, flutter, blow, bluster, breath, flurry, airstream, windstorm, draught, puff, crosswind, headwind, tailwind, updraft, downdraft, eddy, tornado, storm, twister, funnel, williwaw, mistral, monsoon, nor'easter, samiel, tradewind, airstream, breeze, southerly, northerly, easterly, westerly, Santa Ana.
+5. Run search based on this list
+```
+videogrep --input *.mp4 --search 'Breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|nor'easter|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna' --search-type fragment --demo
+```
