@@ -1,3 +1,4 @@
 gloom.mp4 filter=lfs diff=lfs merge=lfs -text
 wind-over-year.png filter=lfs diff=lfs merge=lfs -text
 average-la-windspeed.png filter=lfs diff=lfs merge=lfs -text
+wind-strength-frequency.png filter=lfs diff=lfs merge=lfs -text
