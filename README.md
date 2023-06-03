@@ -49,20 +49,20 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 2. Clean text and create spreadsheet.
 3. Create Lynchian wind taxonomy:
 
-| **Types**  | **Strengths**      | **Value** |
-|------------|--------------------|-----------|
-| **Still**  | very still         |         1 |
-|            | quite still        |         2 |
-|            | still              |         3 |
-| **Breeze** | very slight breeze |         4 |
-|            | slight breeze      |         5 |
-|            | gentle breeze      |         6 |
-|            | breeze             |         7 |
-|            | good breeze        |         8 |
-|            | strong breeze      |         9 |
-| **Wind**   | wind               |        10 |
-|            | strong wind        |        11 |
-|            | high wind          |        12 |
+| **Types**  | **Strengths**      | **Value** | **Frequency** |
+|------------|--------------------|-----------|---------------|
+| **Still**  | very still         |         1 | 		   541|
+|            | quite still        |         2 |				 1|
+|            | still              |         3 |				 1|
+| **Breeze** | very slight breeze |         4 |				16|
+|            | slight breeze      |         5 |				76|
+|            | gentle breeze      |         6 |				22|
+|            | breeze             |         7 |				10|
+|            | good breeze        |         8 |				37|
+|            | strong breeze      |         9 |				47|
+| **Wind**   | wind               |        10 |				 2|
+|            | strong wind        |        11 |				 3|
+|            | high wind          |        12 |				 1|
 
 ![](https://media.githubusercontent.com/media/mhep/lynchian-wind/main/wind-over-year.png?token=AAHKBD4VEZYRAI7JYFLQSZLEPN2QG)
 
@@ -80,4 +80,4 @@ videogrep --input *.webm --search 'Breeze|draft|zephyr|gale|airflow|current|blas
 - searching only for individual words resulted in to coarse a taxonomy for wind (still and breeze). Expanding the length of each fragment provided access to the adjectives.
 
 ## Results
-- Learnt about LA's june (and july) gloom
+- Learnt about LA's June (and July) gloom
