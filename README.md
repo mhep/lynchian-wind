@@ -15,10 +15,11 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 ## Steps
 1. Install [videogrep](https://github.com/antiboredom/videogrep).
 2. Download all of Lynch's Weather Reports using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
+3. Rename files to read `YY-MM-DD`
 3. Explore the corpus using `videogrep -i *.webm --ngrams 1`
 4. Generate a list of synonyms for wind using ChatGPT.
-7. Find further wind-related words based on exploring ngrams and manual review of the videos, like `still`/
-8. New command including added words: ``videogrep --input *.webm --search 'breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo`
+7. Find further wind-related words based on exploring ngrams and manual review of the videos, like `still`.
+8. New command including added words: `videogrep --input *.webm --search 'breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo`
 10. Use `--search-type fragment --padding 0.75` to capture enough context around each mention.
 11. Trial run on a subset of clips from one month.
 12. Sort the clips depending on Lynch's location (at the window or in his workshop).
@@ -69,6 +70,14 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 - `gloom`
 - `cloud`
 - `blue`
+- `gold`
+- `thinking about`
+- `blue skies and`
+- `skies and golden`
+- `the way everyone`
+- `the fun work`
+- `fun work train`
+- 
 
 ## Notes during research
 - You have to get a feel for someone's specific speaking patterns.
