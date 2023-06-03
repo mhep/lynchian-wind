@@ -15,8 +15,8 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 ## Steps
 1. Install [videogrep](https://github.com/antiboredom/videogrep).
 2. Download all of Lynch's Weather Reports using [yt-dlp](https://github.com/yt-dlp/yt-dlp).
-3. Rename files to read `YY-MM-DD`
-3. Explore the corpus using `videogrep -i *.webm --ngrams 1`
+3. Rename files to read `YY-MM-DD`.
+3. Explore the corpus using `videogrep -i *.webm --ngrams 1`.
 4. Generate a list of synonyms for wind using ChatGPT.
 7. Find further wind-related words based on exploring ngrams and manual review of the videos, like `still`.
 8. New command including added words: `videogrep --input *.webm --search 'breeze|gust|draft|zephyr|gale|airflow|current|blast|squall|air|hurricane|tempest|aircurrent|cyclone|whirlwind|puff|waft|sirocco|typhoon|chinook|airstream|flutter|blow|bluster|breath|flurry|airstream|windstorm|draught|puff|crosswind|headwind|tailwind|updraft|downdraft|eddy|tornado|storm|twister|funnel|williwaw|mistral|monsoon|samiel|tradewind|airstream|breeze|southerly|northerly|easterly|westerly|SantaAna|still' --search-type fragment --demo`
@@ -31,6 +31,8 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 > June Gloom is a prominent aspect of the climate in coastal Southern California, including Los Angeles and San Diego, but it also affects other parts of the California coast and can even be observed along the coasts of other western U.S. states and parts of western Mexico.
 
 `videogrep --input *.webm --search 'gloom'`
+
+![](https://github.com/mhep/lynchian-wind/blob/main/img/gloom.png)
 
 ### Visualisation of Lynchian wind
 1. Pre-select videos in which one can see the palm trees through the window (11.2020–12.2022).
