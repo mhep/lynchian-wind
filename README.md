@@ -34,6 +34,15 @@ videogrep --input *.webm --search 'Breeze|gust|draft|zephyr|gale|airflow|current
 10. Use `--search-type fragment --padding 0.22` to capture enough context around each mention.
 11. Trial run on a subset of clips from one month.
 
+## Variations
+### LA gloom
+`videogrep --input *.webm --search 'gloom'`
+### Monthly and seasonal reports
+
 ## Notes during research
 - you have to get a feel for someone's specific speaking patterns
 - Is it important to disentangle literal and metaphorical uses of wind-words?
+- other search terms of interest: `smoke` `gloom`
+
+## Results
+- Learnt about LA's june (and july) gloom
