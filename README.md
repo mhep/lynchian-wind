@@ -24,7 +24,7 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 
 ### Lynchian wind
 
-[![Watch the video](https://img.youtube.com/vi/2MO8sieRrEU/default.jpg)](https://www.youtube.com/watch?v=2MO8sieRrEU)
+![Watch the video](https://img.youtube.com/vi/2MO8sieRrEU/default.jpg)](https://www.youtube.com/watch?v=2MO8sieRrEU)
 
 ![]()
 
