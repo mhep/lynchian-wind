@@ -24,9 +24,7 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 
 ### Lynchian wind
 
-![Watch the video](https://img.youtube.com/vi/2MO8sieRrEU/default.jpg)](https://www.youtube.com/watch?v=2MO8sieRrEU)
-
-![]()
+[![Watch the video](https://img.youtube.com/vi/2MO8sieRrEU/maxresdefault.jpg)](https://www.youtube.com/watch?v=2MO8sieRrEU)
 
 1. Pre-select videos in which one can see the palm trees through the window (11.2020–12.2022).
 2. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`.
