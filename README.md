@@ -82,7 +82,6 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 - `the way everyone`
 - `the fun work`
 - `fun work train`
-- 
 
 ## Notes during research
 - You have to get a feel for someone's specific speaking patterns.
