@@ -22,7 +22,10 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 
 ![](https://github.com/mhep/lynchian-wind/blob/main/img/gloom.png)
 
-### Visualisation of Lynchian wind
+### Lynchian wind
+
+![](https://www.youtube.com/watch?v=2MO8sieRrEU)
+
 1. Pre-select videos in which one can see the palm trees through the window (11.2020–12.2022).
 2. Get wind descriptions: `videogrep --input *.webm --search 'blowing|wind|breeze|still' --demo > howstrongisthewind.txt`.
 3. Clean text and create spreadsheet (available [here](https://github.com/mhep/lynchian-wind/blob/main/data/lynchian-wind.csv)).
