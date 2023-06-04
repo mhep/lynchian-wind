@@ -20,6 +20,8 @@ From [IMDb](https://www.imdb.com/title/tt12313750/trivia/?ref_=tt_trv_trv):
 
 `videogrep --input *.webm --search 'gloom'`
 
+[![Watch the video](https://img.youtube.com/vi/EuUSTdcBwi0/maxresdefault.jpg)](https://www.youtube.com/watch?v=EuUSTdcBwi0)
+
 ![](https://github.com/mhep/lynchian-wind/blob/main/img/gloom.png)
 
 ### Lynchian wind
